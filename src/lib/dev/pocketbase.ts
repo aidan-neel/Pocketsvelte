@@ -1,5 +1,5 @@
 import PocketBase from 'pocketbase';
 
-const PocketbaseClient = new PocketBase("https://each-introduced.pockethost.io/");
+const PocketbaseClient = new PocketBase(// removed);
 
 export default PocketbaseClient;
