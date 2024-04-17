@@ -10,7 +10,7 @@ It's heavily inspired by Fireship's [SvelteFire](https://github.com/codediodeio/
 ## Installation
 
 ```bash
-npm install @aaidan5899/pocketsvelte
+npm install @neel/pocketsvelte
 ```
 
 ## Usage

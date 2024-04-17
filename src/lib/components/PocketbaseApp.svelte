@@ -2,11 +2,19 @@
 	import type PocketBase from 'pocketbase';
 	import { setPocketbaseContext } from "$lib/stores/Context.js"
 
-	export let client: PocketBase;
+	type $$Props = {
+		PocketbaseClient: PocketBase
+	}
 
-	setPocketbaseContext(client);
+	export let PocketbaseClient: $$Props["PocketbaseClient"];
+
+	if (PocketbaseClient) {
+		setPocketbaseContext(PocketbaseClient);
+	} else {
+		console.error("Pocketbase client not found");
+	}
 </script>
 
 <slot
-client={client}
+client={PocketbaseClient}
 />

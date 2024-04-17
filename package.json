@@ -1,6 +1,6 @@
 {
-  "name": "@aaidan5899/pocketsvelte",
-  "version": "0.0.1",
+  "name": "@aidan-neel/pocketsvelte",
+  "version": "0.0.5",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build && npm run package",
