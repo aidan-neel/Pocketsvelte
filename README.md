@@ -18,7 +18,7 @@ npm install @neel/pocketsvelte
 ```svelte
 
 <script lang="ts">
-	type User = {z
+	type User = {
 		// any fields you want here
 	}
 
